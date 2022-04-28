@@ -1,0 +1,11 @@
+import pandas as pd
+brics = pd.read_csv("C:/PythonProjects/annual-enterprise-survey-2020-financial-year-provisional-csv.csv", index_col=0)
+print(brics)
+#extract as series
+dr=brics["Industry_aggregation_NZSIOC"]
+
+#serialize list
+    
+for lab, row in brics.iterrows() :
+    print (lab)
+    print (row)

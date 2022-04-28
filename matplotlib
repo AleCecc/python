@@ -1,0 +1,18 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+year = [2010, 1999,1950]
+pop = [2.56,3.4,5]
+plt.xlabel("Year")
+plt.ylabel("Pop")
+plt.xticks([1990,2000,2010])
+plt.title("Yeah")
+plt.text(2000,4,"Fuck You")
+plt.yticks([1,2,3,4,5,6])
+plt.plot(year,pop)
+plt.show()
+plt.xscale('log')
+plt.show()
+plt.scatter(year,pop)
+plt.show()
+plt.hist(pop,bins=6)
+plt.show()

@@ -1,0 +1,9 @@
+import pandas as pd
+test={
+"strings":["Hey", "Du",":)"],
+"key":["test","test1","test2"],
+"area": ["north","south","west"]
+}
+brics=pd.DataFrame(test)
+brics.index=["x","y","z"]
+print(brics)
